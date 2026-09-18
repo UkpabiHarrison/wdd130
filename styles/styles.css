@@ -2,6 +2,21 @@ main {
     max-width: 840px;
 }
 
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
 aside {
 
     width: 320px;
@@ -19,12 +34,15 @@ aside img {
 }
 
 main img {
-    width: 150;
+    width: 150px;
     height: auto;
+    border: 1px solid #333;
+    padding: 5px;
+    box-shadow: 0 0 10px #888;
+}
 
-    P {
-        padding: 0;
-    }
+P {
+    padding: 0;
 }
 
 footer {
