@@ -74,7 +74,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 20%;
     width: 100%;
