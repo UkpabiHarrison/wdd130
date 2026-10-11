@@ -1,6 +1,6 @@
 :root {
 
-    --primary-color: forestgreen;
+    --primary-color: darkgreen;
 
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
@@ -11,7 +11,7 @@
 header {
 
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: #fff;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
@@ -65,7 +65,7 @@ header img {
 }
 
 header nav a {
-    color: var(--accent2-color);
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -139,7 +139,7 @@ header nav a:hover {
 
 footer {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
