@@ -39,7 +39,7 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60298.36506980087!2d-113.15530085701842!3d37.4124717713994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1791807062318!5m2!1sen!2sng"
-                  width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                  width="400" height="300" allowfullscreen="" loading="lazy"
                   referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
 
@@ -57,14 +57,18 @@
 
                 <fieldset>
                     <legend>Message Purpose</legend>
-                    <label>
-                        <input type="radio" name="purpose" value="general" checked> General Inquiry
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="general" checked>
+                        General Inquiry
                     </label>
-                    <label>
-                        <input type="radio" name="purpose" value="reservation"> Reservation Question
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        Reservation
+                        Question
                     </label>
-                    <label>
-                        <input type="radio" name="purpose" value="suggestion"> Website Suggestion
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        Website Suggestion
                     </label>
                 </fieldset>
 
@@ -75,10 +79,13 @@
                 </p>
 
                 <p>
-                    <label>
-                        <input type="checkbox" name="newsletter" value="yes"> Please subscribe me to
+
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes"> Please
+                        subscribe me to
                         the monthly newsletter
                     </label>
+
                 </p>
 
                 <button type="submit">Get in Touch!</button>
